@@ -1,0 +1,29 @@
+@import url('style.css');
+
+
+.container-form {
+  background-image: url(../images/bg-search.jpg);
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.form-control-tags {
+  justify-content: center;
+  padding-top: 13.875rem;
+}
+
+.form-control-tags input {
+  width: 16rem;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.form-control-tags button {
+  width: 2rem;
+  margin-left: 1rem;
+}
