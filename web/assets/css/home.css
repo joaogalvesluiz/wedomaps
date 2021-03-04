@@ -1,6 +1,9 @@
 @import url('style.css');
 
 
+/* Área de Busca */
+
+
 .container-form {
   background-image: url(../images/bg-search.jpg);
   height: 500px;
@@ -9,7 +12,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .form-control-tags {
@@ -18,12 +20,68 @@
 }
 
 .form-control-tags input {
-  width: 16rem;
-  height: 2rem;
+  width: 24.1875rem;
+  height: 2.5rem;
   padding: 1rem;
 }
 
 .form-control-tags button {
   width: 2rem;
   margin-left: 1rem;
+  
+  background-color: var(--white);
+  color: var(--bg-color);
+  border: 1px solid var(--white);
+  border-radius: var(--bd-3x);
 }
+
+.form-control-tags button:hover {
+  cursor: pointer;
+  background-color: var(--bg-color);
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.annouc div {
+  width: 100%;
+}
+
+.form-control-email input,
+.form-control-email button {
+  display: block;
+}
+
+/* Area para Anunciar */
+
+.title {
+  padding: 3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.form-control-email > input,
+.form-control-email > textarea  {
+  width: 100%;
+  padding: 0.50rem;
+  border-radius: var(--bd-3x);
+}
+
+.form-control-email button {
+  border-radius: var(--bd-3x);
+  padding:10px 17px;
+  transition: 0.2s;
+}
+
+.form-control-email button:hover {
+  cursor: pointer;
+  border: solid 1px var(--white);
+  background-color: var(--bg-color);
+  color: var(--white);
+}
+
+.form-control-email input:not(:first-child),
+.form-control-email textarea,
+.form-control-email button {
+  margin-top: 0.50rem;
+}
+
