@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('components/contact-form.css');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -37,6 +41,10 @@ nav {
   text-transform: capitalize;
 }
 
+.bl {
+  color: var(--blue-light)
+}
+
 .navs a:not(:last-child) {
   margin-right: 15px;
 }
@@ -49,6 +57,10 @@ nav {
 
 .flex {
   display: flex;
+}
+
+.tc {
+  text-align: center;
 }
 
 .jb {
@@ -74,3 +86,11 @@ footer {
   color: var(--white);
 }
 
+.social-links a:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+.social-links a i:hover {
+  cursor: pointer;
+  color: var(--blue-light);
+}

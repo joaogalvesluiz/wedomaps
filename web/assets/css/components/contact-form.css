@@ -1,0 +1,45 @@
+
+.annouc div {
+  width: 100%;
+}
+
+.form-control-email input,
+.form-control-email button {
+  display: block;
+}
+
+.title {
+  padding: 3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.form-control-email > input,
+.form-control-email > textarea  {
+  width: 100%;
+  padding: 0.50rem;
+  border-radius: var(--bd-3x);
+}
+
+.form-control-email button {
+  border-radius: var(--bd-3x);
+  padding:10px 17px;
+  transition: 0.2s;
+}
+
+.form-control-email button:hover {
+  cursor: pointer;
+  border: solid 1px var(--white);
+  background-color: var(--bg-color);
+  color: var(--white);
+}
+
+.form-control-email input:not(:first-child),
+.form-control-email textarea,
+.form-control-email button {
+  margin-top: 0.50rem;
+}
+
+.form-control-email textarea {
+  height: 6rem;
+}

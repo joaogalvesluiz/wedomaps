@@ -1,0 +1,26 @@
+
+.quem_somos {
+  color: white;
+}
+.content {
+  margin-top: 6rem;
+  height: 60vh; 
+}
+.content h2 {
+  margin-top: 2rem;
+  margin-bottom:1 rem;
+}
+.quem_somos h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.quem_somos strong,
+.quem_somos h2 {
+  font-size: 1.25rem;
+}
+
+.quem_somos p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

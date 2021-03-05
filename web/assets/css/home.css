@@ -23,10 +23,11 @@
   width: 24.1875rem;
   height: 2.5rem;
   padding: 1rem;
+  border-radius: var(--bd-3x);
 }
 
 .form-control-tags button {
-  width: 2rem;
+  padding: 0.5rem 0.8rem;
   margin-left: 1rem;
   
   background-color: var(--white);
@@ -42,16 +43,16 @@
   border: 1px solid var(--white);
 }
 
-.annouc div {
+/* .annouc div {
   width: 100%;
 }
 
 .form-control-email input,
 .form-control-email button {
   display: block;
-}
+} */
 
-/* Area para Anunciar */
+/* Area para Anunciar
 
 .title {
   padding: 3rem;
@@ -85,3 +86,6 @@
   margin-top: 0.50rem;
 }
 
+.form-control-email textarea {
+  height: 6rem;
+} */
