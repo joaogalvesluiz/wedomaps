@@ -2,11 +2,11 @@
 .quem_somos {
   color: white;
 }
-.content {
-  margin-top: 6rem;
-  height: 60vh; 
+.content_quem_somos {
+  margin-top: 10rem;
+  margin-bottom: 10rem; 
 }
-.content h2 {
+.content_quem_somos h2 {
   margin-top: 2rem;
   margin-bottom:1 rem;
 }
@@ -24,3 +24,4 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
